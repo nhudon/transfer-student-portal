@@ -1,0 +1,58 @@
+.component-row{
+    display:flex;
+    flex-direction:row;
+    padding-left: 50px;
+}
+
+.component-column{
+    display:flex;
+    flex-direction: column;
+    padding-left: 400px;
+    padding-top: 50px;
+    overflow: auto;
+
+}
+
+.report-column{
+    display:flex;
+    width: 50%;
+    position: inherit;
+    margin: 0 auto;
+    flex-direction: column;
+    overflow: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.report-sub-menu{
+    display:flex;
+    width: 100%;
+    position: inherit;
+    margin: 0 auto;
+    flex-direction: column;
+    overflow: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /*padding-top: 50px;*/
+
+}
+
+.advisor-column{
+    display:flex;
+    width: auto;
+    flex-direction: column;
+    padding-top: 50px;
+    overflow: auto;
+
+}
+
+.table-title-center {
+    text-align: center;
+}
+
+.lock-view{
+    margin: 0 auto;
+}

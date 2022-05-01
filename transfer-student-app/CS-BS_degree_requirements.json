@@ -1,0 +1,251 @@
+{
+  "academic_program": "CS-BS",
+  "catalog_term": "2127",
+  "requirements":
+  [
+    {
+      "title": "Core Courses",
+      "requirement_type": "course, unit",
+      "courses_required": "all",
+      "total_units_required": 47,
+      "groups":
+      [
+        {
+          "num_courses_required": "all",
+          "maximum_units": 47,
+          "single_courses":
+          [
+            {
+              "subject": "CS",
+              "catalog": "115"
+            },
+            {
+              "subject": "CS",
+              "catalog": "215"
+            },
+            {
+              "subject": "CS",
+              "catalog": "210"
+            },
+            {
+              "subject": "CS",
+              "catalog": "242"
+            },
+            {
+              "subject": "CS",
+              "catalog": "252"
+            },
+            {
+              "subject": "CS",
+              "catalog": "315"
+            },
+            {
+              "subject": "CS",
+              "catalog": "355"
+            },
+            {
+              "subject": "CS",
+              "catalog": "370"
+            },
+            {
+              "subject": "CS",
+              "catalog": "351"
+            },
+            {
+              "subject": "CS",
+              "catalog": "415"
+            },
+            {
+              "subject": "CS",
+              "catalog": "450"
+            },
+            {
+              "subject": "CS",
+              "catalog": "460"
+            },
+            {
+              "subject": "CS",
+              "catalog": "454"
+            }
+          ]
+        },
+      ]
+    },
+    {
+      "title": "Capstone Requirement",
+      "requirement_type": "course",
+      "courses_required": 1,
+      "groups":
+      [
+        {
+          "num_courses_required": 1,
+          "single_courses":
+          [
+            {
+              "subject": "CS",
+              "catalog": "470"
+            },
+            {
+              "subject": "CS",
+              "catalog": "496"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Computer Science Electives",
+      "requirement_type": "unit",
+      "total_units_required": 9,
+      "groups":
+      [
+        {
+          "maximum_units": "9",
+          "single_courses":
+          [
+            {
+              "subject": "CS",
+              "catalog": "330"
+            },
+            {
+              "subject": "CS",
+              "catalog": "340"
+            },
+            {
+              "subject": "CS",
+              "catalog": "360"
+            },
+            {
+              "subject": "CS",
+              "catalog": "365"
+            },
+            {
+              "subject": "CS",
+              "catalog": "385"
+            },
+            {
+              "subject": "CS",
+              "catalog": "386"
+            },
+            {
+              "subject": "CS",
+              "catalog": "425"
+            }
+          ]
+        },
+        {
+          "maximum_units": 3,
+          "minimum_units": 0,
+          "single_courses":
+          [
+            {
+              "subject": "CS",
+              "catalog": "349"
+            },
+            {
+              "subject": "CS",
+              "catalog": "390"
+            },
+            {
+              "subject": "CS",
+              "catalog": "495"
+            },
+            {
+              "subject": "CS",
+              "catalog": "497"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Support Courses",
+      "requirement_type": "course",
+      "courses_required": 3,
+      "groups":
+      [
+        {
+          "maximum_courses": 2,
+          "minimum_courses": 2,
+          "single_courses":
+          [
+            {
+              "subject": "MATH",
+              "catalog": "165"
+            },
+            {
+              "subject": "MATH",
+              "catalog": "211"
+            },
+            {
+              "subject": "MATH",
+              "catalog": "222"
+            },
+            {
+              "subject": "MATH",
+              "catalog": "241"
+            },
+            {
+              "subject": "MATH",
+              "catalog": "306"
+            },
+            {
+              "subject": "MATH",
+              "catalog": "316"
+            },
+            {
+              "subject": "MATH",
+              "catalog": "352"
+            },
+            {
+              "subject": "MATH",
+              "catalog": "416"
+            },
+            {
+              "subject": "MATH",
+              "catalog": "430"
+            },
+            {
+              "subject": "MATH",
+              "catalog": "470"
+            },
+            {
+              "subject": "PHYS",
+              "catalog": "214"
+            }
+          ]
+        },
+        {
+          "maximum_courses": 1,
+          "minimum_courses": 1,
+          "single_courses":
+          [
+            {
+              "subject": "MATH",
+              "catalog": "161"
+            },
+            {
+              "subject": "MATH",
+              "catalog": "161X"
+            },
+          ],
+          "series_courses": [
+            {
+                "subject": "MATH",
+                "catalog": "161A",
+            },
+            {
+                "subject": "MATH",
+                "catalog": "161A",
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+
+
+
+

@@ -1,0 +1,24 @@
+Index: database/mySQLconnect.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>var mysql      = require('mysql');\r\n\r\n\r\nvar connection = mysql.createConnection({\r\n//    debug: true,\r\n\r\n    host: process.env.DB_HOST,\r\n    port: process.env.DB_PORT,\r\n    user: process.env.DB_USER,\r\n    password: process.env.DB_PASS,\r\n    database: process.env.DB_DATABASE,\r\n});\r\n\r\nvar connection = mysql.createConnection({\r\n//    debug: true,\r\n\r\n    host: 'localhost',\r\n    port: 3306,\r\n    user: 'root',\r\n    password: '005793988',\r\n    database: 'transfer_student'\r\n});\r\n\r\nmodule.exports = connection;\r\n
+===================================================================
+diff --git a/database/mySQLconnect.js b/database/mySQLconnect.js
+--- a/database/mySQLconnect.js	
++++ b/database/mySQLconnect.js	
+@@ -11,6 +11,7 @@
+     database: process.env.DB_DATABASE,
+ });
+ 
++
+ var connection = mysql.createConnection({
+ //    debug: true,
+ 
+@@ -21,4 +22,7 @@
+     database: 'transfer_student'
+ });
+ 
++
++
++
+ module.exports = connection;
